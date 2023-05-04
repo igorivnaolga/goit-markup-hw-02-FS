@@ -1,5 +1,6 @@
 body {
   font-family: 'Roboto';
+  color: #2e2f42;
 }
 
 .list {
@@ -8,8 +9,40 @@ body {
 .link {
   text-decoration: none;
 }
-/* header */
 
+.section-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.third-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.describtion {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* header */
+.logo {
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
 .logo-web {
   color: #4d5ae5;
 }
@@ -21,10 +54,9 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 
-.menu-link :active {
+.menu-item :hover {
   color: #404bbf;
 }
 
@@ -37,21 +69,25 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.mail :active {
+.mail :hover,
+.mail :focus,
+.tel :hover,
+.tel :focus {
   color: #404bbf;
 }
 
 /* Hero */
-.hero {
+/* .hero {
   position: absolute;
   width: 1440px;
   height: 600px;
   left: 0px;
   top: 72px;
 
-  background: #2e2f42;
-}
+  background: #2e2f42; }*/
+
 .hero-header {
+  background-color: #2e2f42;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -61,6 +97,7 @@ body {
   padding: 188px 472px 292px 472px;
 }
 .hero-btn {
+  cursor: pointer;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -85,4 +122,33 @@ body {
 }
 .hero-btn :hover {
   background-color: #404bbf;
+}
+
+/* Portfolio */
+.btn {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+}
+.btn :hover {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+
+/* Footer */
+.footer {
+  background-color: #2e2f42;
+}
+.describtion-light {
+  color: #f4f4fd;
+}
+.logo-studio-light {
+  color: #f4f4fd;
 }
