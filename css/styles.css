@@ -65,10 +65,10 @@ body {
   color: var(--secondary-color);
 }
 
-.menu-item :hover {
+.menu-link:hover {
   color: #404bbf;
 }
-.menu-item :focus {
+.menu-link:focus {
   color: #404bbf;
 }
 .contacts {
@@ -81,10 +81,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.mail :hover,
-.mail :focus,
-.tel :hover,
-.tel :focus {
+.mail-link:hover,
+.mail-link:focus,
+.tel-link:hover,
+.tel-link:focus {
   color: #404bbf;
 }
 
